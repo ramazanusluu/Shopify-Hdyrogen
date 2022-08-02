@@ -1,35 +1,34 @@
-# JavaScript Example
+# Shopify - Hydrogen
 
 Hydrogen is a React framework and SDK that you can use to build fast and dynamic Shopify custom storefronts.
 
-[Check out the docs](https://shopify.dev/custom-storefronts/hydrogen)
+Shopify/Hydrogen-storefronts api kullanarak geliştirmiş olduğum projenin kaynak kodlarının yer aldığı repodur. 
 
-[Run this template on StackBlitz](https://stackblitz.com/github/Shopify/hydrogen/tree/stackblitz/templates/hello-world-js)
+[Hydrogen dökumanlarına gitmek için tıklayınız](https://shopify.dev/custom-storefronts/hydrogen)
 
-## Getting started
+## Build a Hydrogen storefront
 
-**Requirements:**
+Collections (Ana Sayfa)
 
-- Node.js version 16.5.0 or higher
-- Yarn
+![image](https://user-images.githubusercontent.com/98388628/182485159-09908164-1c73-4125-b574-d8a81bd69f4b.png)
 
-```bash
-npm init @shopify/hydrogen@latest --template hello-world-ts
-```
+Card (Alış-Veriş Sepeti - Sepet boş)
 
-Remember to update `hydrogen.config.js` with your shop's domain and Storefront API token!
+![image](https://user-images.githubusercontent.com/98388628/182485366-c7dd92de-e566-4d6f-8a35-03ab12da81e8.png)
 
-## Building for production
+Products (Ürünler sayfası)
 
-```bash
-yarn build
-```
+![image](https://user-images.githubusercontent.com/98388628/182485655-bd16cbb6-3f61-453b-a616-b2f2d859d1a3.png)
 
-## Previewing a production build
+Products Detail (Ürün detay sayfaları)
 
-To run a local preview of your Hydrogen app in an environment similar to Oxygen, build your Hydrogen app and then run `yarn preview`:
+![image](https://user-images.githubusercontent.com/98388628/182485765-c128b803-73f4-4627-b588-94364dbb5d62.png)
 
-```bash
-yarn build
-yarn preview
-```
+Card (Add to Card butonu ile card'a eklenen ürünleri görüntüleme)
+
+![image](https://user-images.githubusercontent.com/98388628/182485846-b406303d-a980-4560-8818-4bbee4ac308e.png)
+
+Buy it now butonuna tıklanıldığında alış-verişi tamamlamak için doldurulması gereken form ekranı
+
+![image](https://user-images.githubusercontent.com/98388628/182485899-6195a05f-6290-4082-a935-b5e8e7bbd9a8.png)
+
